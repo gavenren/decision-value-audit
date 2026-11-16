@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# Large intermediate outputs of run_all.sh (rebuilt from the public data)
+out/*.parquet
+out/*.pkl
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+.DS_Store
